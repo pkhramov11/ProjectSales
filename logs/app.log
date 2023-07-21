@@ -1,0 +1,100 @@
+2023-07-21 13:19:00.125 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.11.Final}
+2023-07-21 13:19:00.936 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2023-07-21 13:19:01.268 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2023-07-21 13:19:01.291 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/salesproject?useSSL=false&serverTimezone=UTC]
+2023-07-21 13:19:01.292 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=root}
+2023-07-21 13:19:01.293 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2023-07-21 13:19:01.298 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2023-07-21 13:19:01.727 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-07-21 13:27:40.590 [main] INFO  Main - Это сообщение информационного уровня.
+2023-07-21 13:27:40.606 [main] WARN  Main - Это предупреждение.
+2023-07-21 13:27:40.607 [main] ERROR Main - Это сообщение об ошибке.
+2023-07-21 13:27:41.254 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.11.Final}
+2023-07-21 13:27:42.146 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2023-07-21 13:27:42.489 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2023-07-21 13:27:42.500 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/salesproject?useSSL=false&serverTimezone=UTC]
+2023-07-21 13:27:42.502 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=root}
+2023-07-21 13:27:42.502 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2023-07-21 13:27:42.505 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2023-07-21 13:27:42.930 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-07-21 13:27:44.715 [main] DEBUG org.hibernate.SQL - select sales0_.id as id1_0_, sales0_.product_name as product_2_0_, sales0_.request_date as request_3_0_, sales0_.status as status4_0_ from sales sales0_
+2023-07-21 13:28:44.735 [AWT-EventQueue-0] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2023-07-21 13:28:44.735 [AWT-EventQueue-0] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/salesproject?useSSL=false&serverTimezone=UTC]
+2023-07-21 13:28:44.735 [AWT-EventQueue-0] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=root}
+2023-07-21 13:28:44.735 [AWT-EventQueue-0] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2023-07-21 13:28:44.735 [AWT-EventQueue-0] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2023-07-21 13:28:44.762 [AWT-EventQueue-0] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-07-21 13:28:44.834 [AWT-EventQueue-0] DEBUG org.hibernate.SQL - insert into sales (product_name, request_date, status) values (?, ?, ?)
+2023-07-21 13:28:44.841 [AWT-EventQueue-0] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [New Order]
+2023-07-21 13:28:44.841 [AWT-EventQueue-0] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [2] as [VARCHAR] - [2023-01-01]
+2023-07-21 13:28:44.842 [AWT-EventQueue-0] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [3] as [VARCHAR] - [dfdf]
+2023-07-21 13:28:44.969 [AWT-EventQueue-0] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2023-07-21 13:28:44.969 [AWT-EventQueue-0] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/salesproject?useSSL=false&serverTimezone=UTC]
+2023-07-21 13:28:44.972 [AWT-EventQueue-0] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=root}
+2023-07-21 13:28:44.972 [AWT-EventQueue-0] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2023-07-21 13:28:44.972 [AWT-EventQueue-0] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2023-07-21 13:28:44.981 [AWT-EventQueue-0] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-07-21 13:28:45.062 [AWT-EventQueue-0] DEBUG org.hibernate.SQL - select sales0_.id as id1_0_, sales0_.product_name as product_2_0_, sales0_.request_date as request_3_0_, sales0_.status as status4_0_ from sales sales0_
+2023-07-21 13:31:11.816 [main] INFO  Main - Это сообщение информационного уровня.
+2023-07-21 13:31:11.828 [main] WARN  Main - Это предупреждение.
+2023-07-21 13:31:11.830 [main] ERROR Main - Это сообщение об ошибке.
+2023-07-21 13:31:12.448 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.11.Final}
+2023-07-21 13:31:13.271 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2023-07-21 13:31:13.612 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2023-07-21 13:31:13.624 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/salesproject?useSSL=false&serverTimezone=UTC]
+2023-07-21 13:31:13.625 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=root}
+2023-07-21 13:31:13.626 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2023-07-21 13:31:13.631 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2023-07-21 13:31:14.044 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-07-21 13:31:15.463 [main] DEBUG org.hibernate.SQL - select sales0_.id as id1_0_, sales0_.product_name as product_2_0_, sales0_.request_date as request_3_0_, sales0_.status as status4_0_ from sales sales0_
+2023-07-21 13:31:29.331 [AWT-EventQueue-0] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2023-07-21 13:31:29.331 [AWT-EventQueue-0] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/salesproject?useSSL=false&serverTimezone=UTC]
+2023-07-21 13:31:29.331 [AWT-EventQueue-0] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=root}
+2023-07-21 13:31:29.331 [AWT-EventQueue-0] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2023-07-21 13:31:29.331 [AWT-EventQueue-0] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2023-07-21 13:31:29.346 [AWT-EventQueue-0] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-07-21 13:31:29.416 [AWT-EventQueue-0] DEBUG org.hibernate.SQL - select sales0_.id as id1_0_0_, sales0_.product_name as product_2_0_0_, sales0_.request_date as request_3_0_0_, sales0_.status as status4_0_0_ from sales sales0_ where sales0_.id=?
+2023-07-21 13:31:29.422 [AWT-EventQueue-0] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [INTEGER] - [21]
+2023-07-21 13:31:29.437 [AWT-EventQueue-0] DEBUG org.hibernate.SQL - delete from sales where id=?
+2023-07-21 13:31:29.437 [AWT-EventQueue-0] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [INTEGER] - [21]
+2023-07-21 13:31:29.581 [AWT-EventQueue-0] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2023-07-21 13:31:29.581 [AWT-EventQueue-0] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/salesproject?useSSL=false&serverTimezone=UTC]
+2023-07-21 13:31:29.583 [AWT-EventQueue-0] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=root}
+2023-07-21 13:31:29.583 [AWT-EventQueue-0] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2023-07-21 13:31:29.583 [AWT-EventQueue-0] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2023-07-21 13:31:29.591 [AWT-EventQueue-0] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-07-21 13:31:29.678 [AWT-EventQueue-0] DEBUG org.hibernate.SQL - select sales0_.id as id1_0_, sales0_.product_name as product_2_0_, sales0_.request_date as request_3_0_, sales0_.status as status4_0_ from sales sales0_
+2023-07-21 13:33:12.171 [AWT-EventQueue-0] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2023-07-21 13:33:12.171 [AWT-EventQueue-0] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/salesproject?useSSL=false&serverTimezone=UTC]
+2023-07-21 13:33:12.171 [AWT-EventQueue-0] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=root}
+2023-07-21 13:33:12.175 [AWT-EventQueue-0] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2023-07-21 13:33:12.175 [AWT-EventQueue-0] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2023-07-21 13:33:12.184 [AWT-EventQueue-0] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-07-21 13:33:12.251 [AWT-EventQueue-0] DEBUG org.hibernate.SQL - insert into sales (product_name, request_date, status) values (?, ?, ?)
+2023-07-21 13:33:12.251 [AWT-EventQueue-0] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [Example]
+2023-07-21 13:33:12.251 [AWT-EventQueue-0] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [2] as [VARCHAR] - [2021-01-40]
+2023-07-21 13:33:12.251 [AWT-EventQueue-0] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [3] as [VARCHAR] - [Статус заказа]
+2023-07-21 13:33:12.276 [AWT-EventQueue-0] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 1292, SQLState: 22001
+2023-07-21 13:33:12.276 [AWT-EventQueue-0] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Data truncation: Incorrect date value: '2021-01-40' for column 'request_date' at row 1
+2023-07-21 13:33:12.327 [AWT-EventQueue-0] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2023-07-21 13:33:12.327 [AWT-EventQueue-0] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/salesproject?useSSL=false&serverTimezone=UTC]
+2023-07-21 13:33:12.327 [AWT-EventQueue-0] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=root}
+2023-07-21 13:33:12.327 [AWT-EventQueue-0] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2023-07-21 13:33:12.327 [AWT-EventQueue-0] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2023-07-21 13:33:12.339 [AWT-EventQueue-0] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-07-21 13:33:12.395 [AWT-EventQueue-0] DEBUG org.hibernate.SQL - select sales0_.id as id1_0_, sales0_.product_name as product_2_0_, sales0_.request_date as request_3_0_, sales0_.status as status4_0_ from sales sales0_
+2023-07-21 13:34:11.319 [AWT-EventQueue-0] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2023-07-21 13:34:11.319 [AWT-EventQueue-0] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/salesproject?useSSL=false&serverTimezone=UTC]
+2023-07-21 13:34:11.319 [AWT-EventQueue-0] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=root}
+2023-07-21 13:34:11.319 [AWT-EventQueue-0] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2023-07-21 13:34:11.319 [AWT-EventQueue-0] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2023-07-21 13:34:11.329 [AWT-EventQueue-0] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-07-21 13:34:11.370 [AWT-EventQueue-0] DEBUG org.hibernate.SQL - select sales0_.id as id1_0_0_, sales0_.product_name as product_2_0_0_, sales0_.request_date as request_3_0_0_, sales0_.status as status4_0_0_ from sales sales0_ where sales0_.id=?
+2023-07-21 13:34:11.371 [AWT-EventQueue-0] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [INTEGER] - [21]
+2023-07-21 13:34:11.462 [AWT-EventQueue-0] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2023-07-21 13:34:11.478 [AWT-EventQueue-0] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/salesproject?useSSL=false&serverTimezone=UTC]
+2023-07-21 13:34:11.478 [AWT-EventQueue-0] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=root}
+2023-07-21 13:34:11.478 [AWT-EventQueue-0] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2023-07-21 13:34:11.478 [AWT-EventQueue-0] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2023-07-21 13:34:11.484 [AWT-EventQueue-0] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-07-21 13:34:11.552 [AWT-EventQueue-0] DEBUG org.hibernate.SQL - select sales0_.id as id1_0_, sales0_.product_name as product_2_0_, sales0_.request_date as request_3_0_, sales0_.status as status4_0_ from sales sales0_
