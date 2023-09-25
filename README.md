@@ -6,5 +6,4 @@ STACK: CRUD Hibernate+Java Swing Gui Form+Log4j+MySQL
 <br>
 ![Image alt](https://github.com/pkhramov11/projectsales/raw/master/pic1.JPG)
 <br>
-Добавлено логирование, для отслеживания непридвиденных ошибок. Если запускать через
-.jar файл, создается папка и файл logs/app.log в папке, где лежит jar файл.
+Добавлено логирование, для отслеживания непридвиденных ошибок.
